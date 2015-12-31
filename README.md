@@ -1,6 +1,6 @@
 # alasql-loader
 
-Compiles sql from alasql and emits a JSON of the db.
+Compiles sql from [alasql](https://github.com/agershun/alasql) and emits a JSON of the db.
 Currently is extremely naive (see Why?) and not nearly complete.
 
 ## Usage
@@ -21,7 +21,7 @@ INSERT INTO TEST_TABLE VALUES (1,'A');
 
 ## License
 
-MIT 
+MIT
 
 ## Why?
 
