@@ -14,7 +14,7 @@ INSERT INTO TEST_TABLE VALUES (1,'A');
 ```
 
 ```javascript
-  var db = require("alasql-loader!./TEST_TABLE.sql");
+  var db = require("alasql!./TEST_TABLE.sql");
   alasql.databases.alasql = db;
   assert.deepEqual(alasql("SELECT * FROM TEST_TABLE"),[{X:1,Y:"A"}]);
 ```
