@@ -1,0 +1,19 @@
+{
+  "name": "alasql-loader",
+  "version": "0.0.1",
+  "description": "Create prepared statements so you can ditch the parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && webpack && mocha"
+  },
+  "keywords": [
+    "webpack",
+    "alasql"
+  ],
+  "author": "NicholasDeis",
+  "license": "MIT",
+  "peerDependencies": {
+    "alasql": "^0.2.1",
+    "webpack": "^1.12.9"
+  }
+}
