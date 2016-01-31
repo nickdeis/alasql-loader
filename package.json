@@ -15,5 +15,8 @@
   "peerDependencies": {
     "alasql": "^0.2.1",
     "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.12"
   }
 }

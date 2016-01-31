@@ -6,6 +6,10 @@ Currently is extremely naive (see Why?) and not nearly complete.
 ## Usage
 
 ```sql
+SOURCE "./TEST_LOAD.sql";
+
+INSERT INTO TEST_LOAD VALUES (1,'B');
+
 CREATE TABLE TEST_TABLE (
   X INT,
   Y TEXT

@@ -15,5 +15,5 @@ module.exports = {
   new IgnorePlugin(/cpexcel/),
   new IgnorePlugin(/^path$/)
 ],
-
+target:"node"
 };
